@@ -1,3 +1,9 @@
-body {
-  color: ;
+:root {
+  --logo-color-first: #2196f3;
+  --logo-color-second: #000000;
+  --main-title-color: #ffffff;
+  --second-title-color: #212121;
+  --main-text-color: #757575;
+  --second-text-color: rgba(255, 255, 255, 0.6);
+  --third-text-color: #2196f3;
 }
