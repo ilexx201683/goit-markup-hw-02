@@ -20,7 +20,7 @@ body {
   color: var(--main-text-color);
 }
 
-/* General */
+/* --------------------General---------------- */
 .list {
   list-style: none;
 }
@@ -30,11 +30,21 @@ body {
 }
 
 .section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
   color: var(--second-title-color);
 }
 
-/* Logo */
+/* -----------------------Logo------------------ */
 .logo {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
   color: var(--logo-text-color);
 }
 .logo-header {
@@ -44,14 +54,25 @@ body {
   color: var(--logo-text-color-second);
 }
 
-/* Button*/
+/* -------------------------Button-------------- */
 .button {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
   color: var(--text-btn-color);
   background-color: var(--background-btn-color);
 }
 
-/* header */
+/* ---------------------------Header--------------- */
 .header-site-nav .link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
   color: var(--header-text-color);
 }
 .header-site-nav .link:hover,
@@ -60,6 +81,10 @@ body {
 }
 
 .header-contacts .link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
   color: inherit;
 }
 .header-contacts .link:hover,
@@ -67,27 +92,56 @@ body {
   color: var(--accent-color);
 }
 
-/* Секция Герой */
+/* ---------------------------Секция Герой------------ */
 .hero {
   background-color: var(--second-background-color);
 }
 .hero .title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
   color: var(--main-title-color);
 }
 
-/* Секция Особенности */
+/* ---------------------------Секция Особенности-------- */
 .features-list .title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
   color: var(--second-title-color);
 }
+.features-list .text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
 
-/* Секция Чем мы занимаемся */
+/* ------------------Секция Чем мы занимаемся------------- */
 
-/* Секция Наша команда */
+/* ------------------------Секция Наша команда------------ */
 .section-team {
   background-color: var(--third-backgroud-color);
 }
 .team-list .title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
   color: var(--second-title-color);
+}
+.team-list .text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 /* Футер */
@@ -95,6 +149,11 @@ body {
   background-color: var(--second-background-color);
 }
 .footer-contacts .link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
   color: #ffffff;
 }
 .footer-contacts .link:hover,
@@ -102,6 +161,11 @@ body {
   color: var(--accent-color);
 }
 .footer-contacts .contacts {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
   color: var(--second-text-color);
 }
 .footer-contacts .contacts:hover,
