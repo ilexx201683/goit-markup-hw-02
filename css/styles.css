@@ -83,6 +83,11 @@ body {
   color: var(--text-btn-color);
   background-color: var(--background-btn-color);
 }
+.button-hero:hover,
+.button-hero:focus {
+  cursor: pointer;
+}
+
 .button-works {
   font-family: inherit;
   font-weight: 500;
@@ -97,6 +102,7 @@ body {
 .button-works:focus {
   color: var(--portfolio-btn-accent-text-color);
   background-color: var(--portfolio-btn-accent-background-color);
+  cursor: pointer;
 }
 
 /*----------------------------INDEX.HTML----------------------*/
